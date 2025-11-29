@@ -8,7 +8,7 @@ export default {
   "tagline": "Dinosaurs are cool",
   "favicon": "img/favicon.ico",
   "url": "https://your-docusaurus-site.example.com",
-  "baseUrl": "/book/",
+  "baseUrl": "/",
   "organizationName": "facebook",
   "projectName": "docusaurus",
   "onBrokenLinks": "warn",
@@ -36,7 +36,7 @@ export default {
     ]
   ],
   "plugins": [
-    "D:\\github\\testing-spec\\calcu\\book\\book\\plugins\\webpack-proxy-plugin\\index.js"
+    "D:\\github\\book-fixed\\book\\plugins\\webpack-proxy-plugin\\index.js"
   ],
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",

@@ -3,97 +3,97 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/book/__docusaurus/debug',
-    component: ComponentCreator('/book/__docusaurus/debug', 'f31'),
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug', '5ff'),
     exact: true
   },
   {
-    path: '/book/__docusaurus/debug/config',
-    component: ComponentCreator('/book/__docusaurus/debug/config', '140'),
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
     exact: true
   },
   {
-    path: '/book/__docusaurus/debug/content',
-    component: ComponentCreator('/book/__docusaurus/debug/content', 'da6'),
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
     exact: true
   },
   {
-    path: '/book/__docusaurus/debug/globalData',
-    component: ComponentCreator('/book/__docusaurus/debug/globalData', '58b'),
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
     exact: true
   },
   {
-    path: '/book/__docusaurus/debug/metadata',
-    component: ComponentCreator('/book/__docusaurus/debug/metadata', 'ae0'),
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
     exact: true
   },
   {
-    path: '/book/__docusaurus/debug/registry',
-    component: ComponentCreator('/book/__docusaurus/debug/registry', 'a8a'),
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
     exact: true
   },
   {
-    path: '/book/__docusaurus/debug/routes',
-    component: ComponentCreator('/book/__docusaurus/debug/routes', 'a5a'),
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
     exact: true
   },
   {
-    path: '/book/docs',
-    component: ComponentCreator('/book/docs', 'a9f'),
+    path: '/docs',
+    component: ComponentCreator('/docs', '3c1'),
     routes: [
       {
-        path: '/book/docs',
-        component: ComponentCreator('/book/docs', 'ad1'),
+        path: '/docs',
+        component: ComponentCreator('/docs', '140'),
         routes: [
           {
-            path: '/book/docs',
-            component: ComponentCreator('/book/docs', 'a28'),
+            path: '/docs',
+            component: ComponentCreator('/docs', '48e'),
             routes: [
               {
-                path: '/book/docs/chapter-1-getting-started',
-                component: ComponentCreator('/book/docs/chapter-1-getting-started', '518'),
+                path: '/docs/chapter-1-getting-started',
+                component: ComponentCreator('/docs/chapter-1-getting-started', 'cc5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/book/docs/chapter-2-architecture',
-                component: ComponentCreator('/book/docs/chapter-2-architecture', '758'),
+                path: '/docs/chapter-2-architecture',
+                component: ComponentCreator('/docs/chapter-2-architecture', 'a1b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/book/docs/chapter-3-frontend',
-                component: ComponentCreator('/book/docs/chapter-3-frontend', '9ff'),
+                path: '/docs/chapter-3-frontend',
+                component: ComponentCreator('/docs/chapter-3-frontend', '9d3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/book/docs/chapter-4-backend',
-                component: ComponentCreator('/book/docs/chapter-4-backend', '597'),
+                path: '/docs/chapter-4-backend',
+                component: ComponentCreator('/docs/chapter-4-backend', '163'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/book/docs/chapter-5-rag-pipeline',
-                component: ComponentCreator('/book/docs/chapter-5-rag-pipeline', 'd5c'),
+                path: '/docs/chapter-5-rag-pipeline',
+                component: ComponentCreator('/docs/chapter-5-rag-pipeline', '4e8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/book/docs/chapter-6-deployment',
-                component: ComponentCreator('/book/docs/chapter-6-deployment', '4fe'),
+                path: '/docs/chapter-6-deployment',
+                component: ComponentCreator('/docs/chapter-6-deployment', '4e7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/book/docs/intro',
-                component: ComponentCreator('/book/docs/intro', '317'),
+                path: '/docs/intro',
+                component: ComponentCreator('/docs/intro', '61d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/book/docs/rag-chatbot/',
-                component: ComponentCreator('/book/docs/rag-chatbot/', '706'),
+                path: '/docs/rag-chatbot/',
+                component: ComponentCreator('/docs/rag-chatbot/', '54a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
